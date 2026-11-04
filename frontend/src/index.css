@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.auth-box {
+    width: 350px;
+    padding: 30px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.auth-box h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.auth-box input {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.auth-box button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-box p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-box a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.home-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.home-content {
+    width: 700px;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.home-subtitle {
+    font-size: 20px;
+    color: #555;
+}
+
+.home-buttons {
+    margin: 30px 0;
+}
+
+.home-buttons button {
+    padding: 12px 25px;
+    margin: 0 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about-section {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.about-section h2 {
+    margin-top: 0;
+}
+
+/* USER DASHBOARD */
+
+.dashboard-page {
+    min-height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.dashboard-box {
+    width: 90%;
+    max-width: 1100px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.dashboard-box h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.events-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.events-table th {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    padding: 14px;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+.events-table td {
+    background-color: white;
+    padding: 14px;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+.book-button {
+    background-color: #d3d3d3;
+    color: black;
+    border: 1px solid #999;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.book-button:hover {
+    background-color: #c0c0c0;
+}
+
+.logout-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.logout-container a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* =========================
+   ADMIN PAGE
+========================= */
+
+.admin-page {
+    min-height: 100vh;
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.admin-container {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto 35px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.admin-container h1,
+.admin-container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   CREATE EVENT FORM
+========================= */
+
+.admin-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-container label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.admin-container input,
+.admin-container textarea {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.admin-container textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.admin-button {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 9px 18px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.admin-button:hover {
+    background-color: #d0d0d0;
+}
+
+/* =========================
+   CANCEL
+========================= */
+
+.cancel-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* =========================
+   EVENT TABLE
+========================= */
+
+.admin-events-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.admin-events-table th {
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+.admin-events-table td {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+/* =========================
+   REGISTERED USERS
+========================= */
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-box {
+    background-color: lightgray;
+    padding: 12px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.no-users {
+    text-align: center;
+}
+
+/* =========================
+   LOGOUT
+========================= */
+
+.admin-logout {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.logout-link {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* =========================
+   USER DASHBOARD
+========================= */
+
+.user-dashboard {
+    min-height: 100vh;
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.user-dashboard .events-container {
+    width: 900px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.user-dashboard .events-container h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* =========================
+   EVENT TABLE
+========================= */
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.events-table th {
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+.events-table td {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+/* =========================
+   BOOK BUTTON
+========================= */
+
+.book-button {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: #d0d0d0;
+}
+
+/* =========================
+   LOGOUT
+========================= */
+
+.user-dashboard .logout-link {
+    display: block;
+    margin: 25px auto 0 auto;
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}

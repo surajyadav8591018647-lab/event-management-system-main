@@ -1,0 +1,40 @@
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Frontend - React
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# =========================
+# Backend - Spring Boot
+# =========================
+backend/target/
+backend/.env
+
+# =========================
+# Java / IDE
+# =========================
+*.class
+*.log
+*.jar
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
